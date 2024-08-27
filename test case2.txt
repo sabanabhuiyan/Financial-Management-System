@@ -1,0 +1,21 @@
+WeDriver driver=new chromeDriver();
+driver.get(https://mail.rediff.com/cgi/login.cgi");
+driver.findElement(By.id("login1")).sendkeys("abc");
+driver.findElement(By.name("password")).sendkeys("pqr");
+driver.findElement(By.className("Iblkeepme")).click();
+driver.findElement(By.name("proceed")).click();
+System.out.printLn(driver.findElement(By.className("div_login_error")).getTex());
+//driver.findElement(By.linkText("Forgot password?")).click();
+driver.findElement.(By.partiallinkText("password")).click();
+driver.navigate().back();
+driver.navigate().forward();
+
+
+ chromeDriver driver=new chromeDriver();
+ driver.get("https://www.amazon.com);
+ webElement element=driver.findElement(By.Id("twotabsearchtextbox"));
+ element sendkeys(..keys to send:"football");
+ webElementButton =driver.findElement(By.Id("new-search-submit-button"));
+ button.click();
+ driver.quit();
+
